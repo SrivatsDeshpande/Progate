@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>
+            CSS
+        </title>
+        <link rel="stylesheet" href="htmlstyle.css">
+    </head>
+    <body>
+       
+        <div class="container">
+            <header>
+               <div class="logo">
+                   <img src="home.png" class="logo-img" align="left" onclick="window.location.href = 'main.html'">
+                   <div class="break-time">
+                       <button onclick = "window.location.href =  'break.html'">Take a break</button>
+                   </div>
+               </div>
+               <div class="header-btn">
+                    <img src="flash.png" height="130px" width = "100px" onclick = "window.location.href = 'profile.html'"><br>
+                    <a href = "profile.html">   Your profile</a>
+                </div>
+               <div class="header-right" >
+                    <h1 align="center">Lessons</h1>
+                   <ul>
+                       
+                       <button onclick="window.location.href = 'html.html'">HTML</button>
+                       <button onclick="window.location.href = 'js.html'"> JavaScript ES6</button>
+                   </ul>
+               </div>
+            </header>
+            <div class="message-css">
+                    <h3>CSS GUIDE 101 </h3>
+                    <P>CSS(Cascading Style Sheet) is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes. .</P>
+            </div>
+            <div class="categories">
+                <div class="categories-title">Dive In</div>
+                <button value="HTMLConcepts"  class="selector" onclick="dispbasics()">Concepts</button>
+                <button value="HTML Practice questions" class="selector" onclick="dispques()">Practice Questions</button>
+                <button value="HTML Challenges"  class="selector" onclick="dispchallenges()">Challenges</button>
+                <input type="text" class="screen" id="screen" disabled>
+
+            </div>
+            <div class="add">
+                <form>
+                    <p>Practice Questions</p><input type="radio" name="post" value="Practice Question"><br>
+                    <p>Challenges</p><input type="radio" name="post" value="Challenges"><br>
+                    <textarea placeholder="Enter Question/Challenge"></textarea><br>
+                    <input type="submit" value="Post" class="post">
+                </form>
+            </div>
+                
+        </div>
+        <script src="cssscript.js"></script>
+    </body>
+</html>

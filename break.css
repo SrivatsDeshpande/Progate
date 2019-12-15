@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(94, 104, 240);
+   line-height: 150px;
+   margin-bottom: 0%
+}
+header {
+    background-color: rgb(96, 218, 106);
+    
+    margin-bottom: 0%;
+    height: fit-content;
+
+}
+
+.tips {
+    height: fit-content;
+    width: 100%;
+    background-color: indigo;
+    margin-top: 0%;
+}
+.tips li {
+    color : white;
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+    
+
+}
+.tips h3 {
+    margin-top: 0%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.clock {
+    padding-top: 100px;
+    padding-left: 650px;
+    
+}
+/* .clock h1 {
+    border: 1px solid black;
+} */
+.clock-btn button{
+    height: 60px;
+    width: 120px;
+    border-radius: 60px;
+    background-color: indigo;
+    color: white;
+
+}
+.clock-btn {
+    margin-left: 635px;
+}
